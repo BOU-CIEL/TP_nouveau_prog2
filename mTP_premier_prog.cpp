@@ -6,6 +6,7 @@
 // Résumé : TP sur les premiers programmes
 
 #include <stdio.h>
+#include <stdlib.h>
 #include <conio.h>
 #include "TP_premier_prog.h"
 
