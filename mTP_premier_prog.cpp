@@ -38,6 +38,10 @@ int main()
 	scanf_s("%d", &ageSaisi);
 	printf("Mr. %s a %d ans\n", nomSaisi, ageSaisi);
 
+	printf("Entrer un nombre en hexadecimal: ");
+	scanf_s("%x", &nbHex);
+	printf("Vous avez saisi %#x (%d).\n", nbHex, nbHex);
+
 	
 
 	return(0);
