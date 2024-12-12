@@ -7,4 +7,8 @@
 // Résumé : TP sur les premiers programmes
 
 
+int nbCara = 0;
+int jour = 0;
+int mois = 0;
+int annee = 0;
 
