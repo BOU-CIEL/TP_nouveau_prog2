@@ -22,8 +22,15 @@ int main()
 	int jour, mois, annee;
 	scanf_s("%f %f %f", &jour, &mois, &annee);
 	printf("Date : %f / %f / %f \n", jour, mois, annee);
-
 	_getch();
+
+	char c;
+	do {
+		c = getchar();
+	} while (c != EOF && c != '\n');
+
+	
+
 	return(0);
 	
 	
