@@ -8,22 +8,24 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <conio.h>
+#include <iostream>
 #include "TP_premier_prog.h"
+
+using namespace std;
 
 int main()
 {
 	
-	printf("Premier programme\n");
-	printf("\nSection %s promotion %d\n", "CIEL", 2026);
-	printf("\nLe point de fusion du mercure est de %f \xF8 C soit environ %f \xF8 C \n", -38.842, -38.842);
-	printf("Total : %d \n ", printf("Premier programme\n"));
+	cout << "Premier programme\n";
+	cout << "\nSection %s promotion %d\n", "CIEL", 2026;
+	cout << "\nLe point de fusion du mercure est de %f \xF8 C soit environ %f \xF8 C \n", -38.842, -38.842;
+	cout <<"Total : %d \n ", printf("Premier programme\n");
 	int nbCara;
 	nbCara = printf("Le nombre de caracteres\n");
 
 	int jour, mois, annee;
-	printf("Date : %f / %f / %f \n", jour, mois, annee);
-	scanf_s("%f %f %f", &jour, &mois, &annee);
-	_getch();
+	cout << "Date : %f / %f / %f \n" << jour <<  mois << annee;
+	cout <<" % f % f % f" <<  &jour <<  &mois <<  &annee;
 
 	char c;
 	do {
@@ -32,15 +34,14 @@ int main()
 
 	char nomSaisi[10];
 	int ageSaisi, nbHex;
-	printf("Entrer votre nom: ");
-	scanf_s("%9s", nomSaisi, _countof(nomSaisi));
-	printf("Entrer votre age: ");
-	scanf_s("%d", &ageSaisi);
-	printf("Mr. %s a %d ans\n", nomSaisi, ageSaisi);
-
-	printf("Entrer un nombre en hexadecimal: ");
-	scanf_s("%x", &nbHex);
-	printf("Vous avez saisi %#x (%d).\n", nbHex, nbHex);
+	cout << "Entrer votre nom: ";
+	cin >> nomSaisi, _countof(nomSaisi);
+	cout << "Entrer votre age: ";
+	cin>>  ageSaisi;
+	cout <<"Mr. %s a %d ans\n" << nomSaisi <<  ageSaisi;
+	cout << "Entrer un nombre en hexadecimal: ";
+	cin >> nbHex;
+	cout << "Vous avez saisi %#x (%d).\n" << nbHex << nbHex;
 
 	
 
