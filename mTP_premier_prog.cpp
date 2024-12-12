@@ -19,6 +19,12 @@ int main()
 	int nbCara;
 	nbCara = printf("Le nombre de caracteres\n");
 
+	int jour, mois, annee;
+	scanf_s("%f %f %f", &jour, &mois, &annee);
+	printf("Date : %f / %f / %f \n", jour, mois, annee);
+
+	_getch();
+	return(0);
 	
 	
 }
